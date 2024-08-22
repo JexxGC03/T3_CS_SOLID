@@ -8,3 +8,4 @@ Aparte de que el método dibujarFiguras esta estrictamente asociado a Cuadrado y
 *Se realiza en Java*
 
 3. ¿Consideras que la tarea realizada es una refactorización? Justifica tu respuesta.
+Si, al hacer cambios en la estructura interna de la clase figuras se convierte en un refactorización.
