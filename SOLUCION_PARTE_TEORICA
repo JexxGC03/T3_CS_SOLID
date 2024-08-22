@@ -9,3 +9,13 @@ Aparte de que el método dibujarFiguras esta estrictamente asociado a Cuadrado y
 
 3. ¿Consideras que la tarea realizada es una refactorización? Justifica tu respuesta.
 Si, al hacer cambios en la estructura interna de la clase figuras se convierte en un refactorización.
+
+#Principio Liskov (LSK).
+1. Crea un programa principal que ejecute los métodos de la clase Configuración.
+*Java*
+
+2. Cumple la clase Configuracion en Principio OCP. Justifica la respuesta
+Cada vez que se agrega un nuevo tipo de RecursoPersistente, se necesita modificar el método cargarConfiguracion en la clase Configuracion para incluir el nuevo tipo. Esto significa que el código de Configuracion está abierto para modificaciones cuando se agregan nuevas configuraciones, lo que va en contra del principio de estar cerrada para modificaciones
+
+3. Cumple la clase Configuracion el Principio de Liskov. Justifica la respuesta.
+Si, en gran medida la clase cumple con el principio LSK, ya que todos los objetos de RecursoCaragable pueden sere reemplazado en las demas claese.
