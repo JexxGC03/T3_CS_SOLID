@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Figuras;
 
 import java.util.Enumeration;
 import java.util.Vector;

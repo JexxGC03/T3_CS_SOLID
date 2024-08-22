@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Figuras;
 
 public class Cuadrado extends Figura{
 

@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Figuras;
 
 public class Circulo extends Figura{
     @Override
