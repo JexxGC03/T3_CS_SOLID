@@ -1,5 +1,10 @@
 #Principio Abierto-Cerrado (OCP)
 *1. ¿Cumple la clase Figuras el Principio OCP. Justifica tu respuesta.*
-No, el primcipio OCP establece, abierto para extensión cerrado para modificar, en ese caso la clase **Figuras**, no se cumple con estas caracteristicas ya que esta diseñada especificamente para trabajar con las clases Cuadrado y Circulo, haciendo que al momento de querer agregar otra clase haya que modificar esa clase
+No, el primcipio OCP establece, abierto para extensión cerrado para modificar, en ese caso la clase **Figuras**, no se cumple con estas caracteristicas ya que esta diseñada especificamente para trabajar con las clases Cuadrado y Circulo, haciendo que al momento de querer agregar otra clase haya que modificar esa clase.
+
+Aparte de que el método dibujarFiguras esta estrictamente asociado a Cuadrado y Circulo y no maneja de forma general las instasncias de Figura. 
+
 2. En caso de que no lo cumpla, modifica las clase para cumpla este criterio.
+*Se realiza en Java*
+
 3. ¿Consideras que la tarea realizada es una refactorización? Justifica tu respuesta.
